@@ -1,5 +1,5 @@
 import express from 'express';
-import { ClinicController } from '../controllers/clinic.controller';
+import ClinicController from '../controllers/clinic.controller';
 import Container from 'typedi';
 
 const clinicsRouter = express.Router();
