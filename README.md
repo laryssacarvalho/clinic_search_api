@@ -23,7 +23,7 @@ The project is a solution for this [coding challenge](https://gitlab.scratchpay.
 
 The application consists of an API with only one endpoint to search clinics using different query params. 
 
-The endpoint URL is **/clincs** and it is a GET method that allow any of the following query params:
+The endpoint URL is **/clinics** and it is a GET method that allow any of the following query params:
 
 - name
 - state (name or abbreviation)
