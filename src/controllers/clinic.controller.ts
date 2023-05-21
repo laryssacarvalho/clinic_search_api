@@ -10,7 +10,7 @@ export default class ClinicController {
     constructor(private clinicService: ClinicService){}
 
     async getClinics(req: express.Request, res: express.Response) {
-                
+
         let clinics = await this.getAllClinics();
         
         clinics = this.filterByName(req, clinics);
