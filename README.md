@@ -27,8 +27,8 @@ The endpoint URL is **/clinics** and it is a GET method that allow any of the fo
 
 - name
 - state (name or abbreviation)
-- from
-- to
+- from (format hh:mm)
+- to (format hh:mm)
 
 You can combine the parameters to filter the list as you like.
 
