@@ -1,10 +1,10 @@
 import express from 'express';
 import { jest } from '@jest/globals';
-import { AppConfiguration } from '../src/config/config';
-import ClinicController from '../src/controllers/clinic.controller';
-import ClinicService from '../src/services/clinic.service';
-import { DentalClinicsMock } from './mocks/dental-clinic.mock';
-import { VetClinicsMock } from './mocks/vet-clinic.mock';
+import { AppConfiguration } from '../../src/config/config';
+import ClinicController from '../../src/controllers/clinic.controller';
+import ClinicService from '../../src/services/clinic.service';
+import { DentalClinicsMock } from '../mocks/dental-clinic.mock';
+import { VetClinicsMock } from '../mocks/vet-clinic.mock';
 
 describe('ClinicController', function () {
 

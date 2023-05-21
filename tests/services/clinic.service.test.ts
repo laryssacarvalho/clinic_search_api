@@ -1,8 +1,8 @@
 import { jest } from '@jest/globals';
-import { AppConfiguration } from '../src/config/config';
-import ClinicService from '../src/services/clinic.service';
-import { DentalClinicsMock } from './mocks/dental-clinic.mock';
-import { VetClinicsMock } from './mocks/vet-clinic.mock';
+import { AppConfiguration } from '../../src/config/config';
+import ClinicService from '../../src/services/clinic.service';
+import { DentalClinicsMock } from '../mocks/dental-clinic.mock';
+import { VetClinicsMock } from '../mocks/vet-clinic.mock';
 import axios from 'axios';
 
 jest.mock('axios');
